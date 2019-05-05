@@ -25,7 +25,5 @@ CMD \
  npm install && \
  npm install --save hexo-admin && \
  npm install hexo-deployer-git --save; \
- echo "***** Generating... *****" && \
- hexo generate && hexo server; \
- #echo "***** Deploying... *****" && \
- #hexo clean && hexo deploy
+ echo "***** Deploying... *****" && \
+ hexo clean && hexo deploy;
