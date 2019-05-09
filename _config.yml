@@ -5,11 +5,11 @@
 # Site
 title: Brian Cerney
 subtitle:
-description:
+description: Personal blog for Brian Cerney.
 keywords: brian cerney development music education
 author: Brian Cerney
-language:
-timezone:
+language: en
+timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
