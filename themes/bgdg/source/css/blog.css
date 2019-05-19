@@ -47,6 +47,12 @@ body {
     font-size: 1.7em;
 }
 
+.icons-desc-sidebar {
+	color: #FDB927;
+	margin:right: 5px;
+	font-size; 1em;
+}
+
 .sidebar-module h2 {
 	color: white;
 }
