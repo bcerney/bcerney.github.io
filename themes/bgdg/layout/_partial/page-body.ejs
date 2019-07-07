@@ -1,0 +1,14 @@
+<div class="page-body">
+    <!-- Title -->
+    <h2 class="page-title">
+        <a href="<%- config.root %><%- item.path %>">
+            <%- item.title || item.link%>
+        </a>
+    </h2>
+    <!-- Content -->
+    <%- item.content %>
+    <hr />
+    <!-- Tags and Categories links -->
+    <%- partial('article-tags', {item: item}) %>
+    <%- partial('article-categories', {item: item}) %>
+</div>
