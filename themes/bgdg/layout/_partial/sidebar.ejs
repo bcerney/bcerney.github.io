@@ -1,19 +1,36 @@
 <div class="sidebar-module text-center">
     <h2>Brian Cerney</h2>
+
     <img id="headshot" class="center-block img-responsive" src="<%- url_for('/images/bc-headshot-rec.png') %>" alt="Headshot of Brian Cerney">
-    <p>Associate Consultant <i class="fas fa-code icons-desc-sidebar"></i> <a href="https://www.workstate.com"> Workstate</a>. Guitarist <i class="fas fa-music icons-desc-sidebar"></i><a href="http://bottleflies.com"> bottleflies</a>. Guitar Teacher <i class="fa fa-guitar icons-desc-sidebar"></i><a href="https://guitarsnotgunsohio.org/"> Guitars Not Guns Central Ohio</a>.</p>
+
+    <ol class="list-unstyled">
+        <div id="code"><li><a href="https://www.workstate.com" target="_blank"><i id="fa-code" class="fas fa-code icons-sidebar"></i> Associate Consultant, Workstate</a></li></div>
+        <div id="music"><li><a href="http://bottleflies.com"><i id="fa-music" class="fas fa-music icons-sidebar"></i> Guitar/Vocals, bottleflies</a></li></div>
+        <div id="guitar"><li><a href="https://guitarsnotgunsohio.org/"><i id="fa-guitar" class="fa fa-guitar icons-sidebar"></i> Lead Teacher, Guitars Not Guns Central Ohio</a></li></div>
+    </ol>
 </div>
-<div class="sidebar-module text-center">
-   <!-- <ol class="list-unstyled">
-        <li><i class="fas fa-code icons-sidebar"></i><a href="<%- url_for('/Development') %>">Development</a></li>
-        <li><i class="fas fa-play icons-sidebar"></i><a href="<%- url_for('/Music') %>">Music</a></li>
-        <li><i class="fas fa-chalkboard-teacher icons-sidebar"></i><a href="<%- url_for('/Education') %>">Education</a></li>
-        <li><i class="fas fa-question icons-sidebar"></i><a href="<%- url_for('/About') %>">About</a></li>
-    </ol> -->
-</div>
+
 <div class="sidebar-module text-center">
     <p>
-        <a href="https://github.com/bcerney"><i class="fab fa-github icons-sidebar"></i></a>
-        <a href="https://www.linkedin.com/in/brian-cerney"><i class="fab fa-linkedin icons-sidebar"></i></a>
+        <a href="mailto:brianecerney@gmail.com"><i id="fa-envelope" class="fas fa-envelope icons-sidebar"></i></a>
+        <a href="https://github.com/bcerney"><i id="fa-github" class="fab fa-github icons-sidebar"></i></a>
+        <a href="https://www.linkedin.com/in/brian-cerney"><i id="fa-linkedin" class="fab fa-linkedin icons-sidebar"></i></a>
     </p>
 </div>
+
+
+
+
+
+
+
+
+<!-- TODO: decide on implementation or delete
+<!--<div class="sidebar-module text-center">
+   <ol class="list-unstyled">
+        <li><i id="" class="fas fa-code icons-sidebar"></i><a id="test" href="<%- url_for('/Development') %>">Development</a></li>
+        <li><i id="" class="fas fa-play icons-sidebar"></i><a href="<%- url_for('/Music') %>">Music</a></li>
+        <li><i class="fas fa-chalkboard-teacher icons-sidebar"></i><a href="<%- url_for('/Education') %>">Education</a></li>
+        <li><i class="fas fa-question icons-sidebar"></i><a href="<%- url_for('/About') %>">About</a></li>
+    </ol>
+</div> -->

@@ -7,6 +7,7 @@ ENV HEXO_SERVER_PORT=4000
 RUN \
  apt-get update && \
  apt-get install git -y && \
+ apt-get install vim -y && \
  npm install -g hexo-cli
 
 RUN \
@@ -19,11 +20,11 @@ WORKDIR /app
 # Expose Server Port
 EXPOSE ${HEXO_SERVER_PORT}
 
-# Build a base blog if it doesnt exist, then start server
-CMD \
+RUN \
  echo "***** Initializing... *****" && \
  npm install && \
  npm install --save hexo-admin && \
- npm install hexo-deployer-git --save; \
- echo "***** Deploying... *****" && \
- hexo clean && hexo deploy;
+ npm i --save hexo-asset-link && \
+ npm install hexo-deployer-git --save;
+
+CMD ["/bin/bash"]
