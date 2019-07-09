@@ -4,7 +4,7 @@
 
 # Site
 title: Brian Cerney
-subtitle:
+subtitle: Development | Music | Education
 description: Personal blog for Brian Cerney.
 keywords: brian cerney development music education
 author: Brian Cerney
@@ -13,7 +13,7 @@ timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://bcerney.github.io
+url: https://briancerney.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -62,7 +62,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: LL
 time_format: HH:mm:ss
 
 # Pagination
@@ -81,6 +81,6 @@ deploy:
   type: git
   repo: git@github.com:bcerney/bcerney.github.io.git
   branch: master
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  message: "Site updated: {{ now('LL HH:mm:ss') }}"
   name: bcerney
   email: brianecerney@gmail.com
