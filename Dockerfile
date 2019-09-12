@@ -25,6 +25,7 @@ RUN \
  npm install && \
  npm install --save hexo-admin && \
  npm i --save hexo-asset-link && \
+ npm install --save hexo-image-caption && \
  npm install hexo-deployer-git --save;
 
 CMD ["/bin/bash"]
