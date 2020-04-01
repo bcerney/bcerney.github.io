@@ -1,5 +1,102 @@
+/* https://hyperpix.net/fonts/vaporwave-fonts/ */
+/* https://www.dafont.com/hyper-vyper.font */
+@font-face{
+    font-family: "HyperViper";
+    src: url('hyperviperhalfital.ttf'),
+    url('hyperviperhalfital.ttf'); /* IE */
+}
+
 body {
-	background-color: #041E42;
+	background-color: #000a35;
+}
+
+#headshot {
+	border-radius: 15%;
+	margin-bottom: 5px;
+}
+
+#sidebar-row {
+	background-color: #000a35;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.sidebar-module {
+	background-color:  	#000a35;
+}
+
+.sidebar-module h2 {
+	color: #ff00c1;
+	font-family: HyperViper;
+	font-size: 3em;
+}
+
+.sidebar-module a {
+	color: white;
+}
+
+.icons-sidebar {
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+
+#fa-code  {
+	color: #ffa500;
+}
+
+#fa-music  {
+	color: #ff4500;
+}
+
+#fa-guitar  {
+	color: #cc0000;
+}
+
+#fa-envelope  {
+	color: #ffa500;
+	font-size: 3em;
+}
+
+#fa-github  {
+	color: #ff4500;
+	font-size: 3em;
+}
+
+#fa-linkedin  {
+	font-size: 3em;
+	color: #cc0000;
+}
+
+ol div a {
+	color: #07cff6;
+}
+
+#code a:hover {
+	color: white;
+	text-decoration-color: #BE3A34;
+}
+
+#music a:hover {
+	color: white;
+	text-decoration-color: #FFA300;
+}
+
+#guitar a:hover {
+	color: white;
+	text-decoration-color: #ff00c1;
+}
+
+.sidebar-module li {
+	color: #ff00c1;
+	font-size: 1.25em;
+}
+
+#main-row {
+	background-color: #000a35;
+	border: 5px solid #ff00c1;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 15px;
 }
 
 .blog-post img {
@@ -7,26 +104,31 @@ body {
 	height: auto;
 }
 
+.blog-post-title a {
+    color: #07cff6;
+}
+
+.blog-post-title a:hover {
+    color: #00fff9;
+    text-decoration-color: #00fff9;
+}
+
+
 .blog-post p {
     color: white;
 }
 
 .blog-post p a {
-    color: #00A9E0;
+    color: #ff00c1;
 }
 
 .blog-post p a:hover {
-    color: #00A9E0;
+    color: #ff00c1;
     text-decoration-color: #BE3A34;
 }
 
-.blog-post-title a {
-    color: #FFA300;
-}
-
-.blog-post-title a:hover {
-    color: #FFA300;
-    text-decoration-color: #BE3A34;
+.blog-post ul li {
+	color: white;
 }
 
 .blog-tags-container, .blog-categories-container {
@@ -44,92 +146,4 @@ body {
 
 .blog-archive-title {
     margin-bottom: 50px;
-}
-
-#headshot {
-	border-radius: 15%;
-	margin-bottom: 5px;
-}
-
-#sidebar-row {
-	background-color: #041E42;
-	margin-top: 10px;
-	margin-right: 10px;
-}
-
-.sidebar-module {
-	background-color: #041E42;
-}
-
-.sidebar-module h2 {
-	color: white;
-	font-size: 3em;
-}
-
-.sidebar-module a {
-	color: white;
-}
-
-.icons-sidebar {
-    margin-right: 5px;
-    font-size: 1.5em;
-}
-
-#fa-code  {
-	color: #BE3A34;
-}
-
-#fa-music  {
-	color: #FFA300;
-}
-
-#fa-guitar  {
-	color: #00A9E0;
-}
-
-#fa-envelope  {
-	color: #BE3A34;
-	font-size: 3em;
-}
-
-#fa-github  {
-	color: #FFA300;
-	font-size: 3em;
-}
-
-#fa-linkedin  {
-	font-size: 3em;
-	color: #00A9E0;
-}
-
-ol div a {
-	color: white;
-}
-
-#code a:hover {
-	color: white;
-	text-decoration-color: #BE3A34;
-}
-
-#music a:hover {
-	color: white;
-	text-decoration-color: #FFA300;
-}
-
-#guitar a:hover {
-	color: white;
-	text-decoration-color: #00A9E0;
-}
-
-.sidebar-module li {
-	color: white;
-	font-size: 1.25em;
-}
-
-#main-row {
-	background-color: #041E42;
-	border: 5px solid #FFA300;
-	border-radius: 5px;
-	margin: 5px;
-	padding: 15px;
 }
