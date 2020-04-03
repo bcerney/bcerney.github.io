@@ -29,3 +29,6 @@ if [ $# -eq 0 ]
 fi
 
 docker build -t project:$tag .
+
+ssh-keygen -t rsa -f /root/.ssh/id_rsa -q -P ""
+cat /root/.ssh/id_rsa.pub
