@@ -7,8 +7,7 @@ ENV HEXO_SERVER_PORT=4000
 RUN \
  apt-get update && \
  apt-get install git -y && \
- apt-get install vim -y && \
- npm install -g hexo-cli
+ apt-get install vim -y
 
 RUN \
  git config --global user.name "bcerney" && \
@@ -23,6 +22,8 @@ EXPOSE ${HEXO_SERVER_PORT}
 RUN \
  echo "***** Initializing... *****" && \
  npm install && \
+ npm install -g hexo-cli && \
+ npm install --save hexo && \
  npm install --save hexo-admin && \
  npm i --save hexo-asset-link && \
  npm install --save hexo-image-caption && \
