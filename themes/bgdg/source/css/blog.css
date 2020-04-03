@@ -58,11 +58,11 @@ body {
 #sidebar-row {
 	margin-top: 10px;
 	margin-right: 10px;
-	font-size: 2vh;
+	/* font-size: 2vh; */
 }
 
 .sidebar-module li {
-	font-size: 1.25em;
+	font-size: 3vh;
 }
 
 #fa-code {
