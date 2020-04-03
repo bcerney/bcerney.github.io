@@ -6,110 +6,130 @@
     url('hyperviperhalfital.ttf'); /* IE */
 }
 
+/* https://www.fontspace.com/guru-meditation-nbp-font-f15920 */
+@font-face{
+    font-family: "GuruMeditation";
+    src: url('GuruMeditationNbp-GynZ.ttf'),
+    url('GuruMeditationNbp-GynZ.ttf'); /* IE */
+}
+
+@font-face{
+    font-family: "CodeSquared";
+    src: url('Roadrage-owgBd.otf'),
+    url('Roadrage-owgBd.otf'); /* IE */
+}
+
+/* https://www.fontspace.com/road-rage-font-f43310 */
+@font-face{
+    font-family: "Roadrage";
+    src: url('Roadrage-owgBd.otf'),
+    url('Roadrage-owgBd.otf'); /* IE */
+}
+
+
+/* @font-face{
+    font-family: "CodeSquared";
+    src: url('still-time.ttf.ttf'),
+    url('still-time.ttf.ttf');
+} */
+
 body {
 	background-image: linear-gradient(#000000 0%, #1a297b 35%,  #000a35 100%);
 }
 
-/* body {
-	background-image: linear-gradient(to right, #000311 , #000a35);;
-} */
-
 #header h1 {
 	color: #ff00c1;
-	text-shadow: 2px 2px #00b8ff;
+	text-shadow: 5px 5px #00b8ff;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
 	font-family: HyperViper;
-	font-size: 9vmin;
+	font-size: 12vmin;
 	padding: 10px;
 }
 
 #headshot {
-	border-radius: 15%;
-	margin-bottom: 5px;
+	background-color: #ff00c1;
+	border: 15px solid #ff00c1 ;
+	box-shadow: 10px 10px #00b8ff;
+	border-radius: 20%;
+	margin-bottom: 20px;
 }
 
 #sidebar-row {
-	/* background-color: #000000; */
 	margin-top: 10px;
 	margin-right: 10px;
+	font-size: 2vh;
 }
 
-/* .sidebar-module {
-	background-color:  	#000000;
-} */
+.sidebar-module li {
+	font-size: 1.25em;
+}
 
-/* .sidebar-module h1 {
+#fa-code {
 	color: #ff00c1;
-	text-shadow: 2px 2px #00b8ff;
-	font-family: HyperViper;
-	font-size: 9vmin;
-	padding: 10px;
-} */
+}
 
-.sidebar-module a {
+#code a {
 	color: white;
-}
-
-.icons-sidebar {
-    margin-right: 5px;
-    font-size: 1.5em;
-}
-
-#fa-code  {
-	color: #ffa500;
-}
-
-#fa-music  {
-	color: #ff4500;
-}
-
-#fa-guitar  {
-	color: #cc0000;
-}
-
-#fa-envelope  {
-	color: #ffa500;
-	font-size: 3em;
-}
-
-#fa-github  {
-	color: #ff4500;
-	font-size: 3em;
-}
-
-#fa-linkedin  {
-	font-size: 3em;
-	color: #cc0000;
-}
-
-ol div a {
-	color: #07cff6;
+	font-family: "CodeSquared";
 }
 
 #code a:hover {
 	color: white;
-	text-decoration-color: #BE3A34;
+	text-decoration-color: #ff00c1;
+}
+
+#fa-music {
+	color: #00b8ff;
+}
+
+#music a {
+	color: white;
+	font-family: "CodeSquared";
 }
 
 #music a:hover {
 	color: white;
-	text-decoration-color: #FFA300;
+	text-decoration-color: #00b8ff;
+}
+
+#fa-guitar {
+	color: #ffb700;
+}
+
+#guitar a {
+	color: white;
+	font-family: "CodeSquared";
 }
 
 #guitar a:hover {
 	color: white;
-	text-decoration-color: #ff00c1;
+	text-decoration-color: #ffb700;
 }
 
-.sidebar-module li {
+.icons-sidebar {
+    margin-right: 5px;
+    font-size: 4vmax;
+}
+
+#fa-envelope  {
 	color: #ff00c1;
-	font-size: 1.25em;
+	/* font-size: 3em; */
+}
+
+#fa-github  {
+	color: #00b8ff;
+	/* font-size: 3em; */
+}
+
+#fa-linkedin  {
+	color: #ffb700;
+	/* font-size: 3em; */
 }
 
 #main-row {
-	/* background-color: #000a35; */
-	/* background-image: radial-gradient(circle, #000311 , #000a35); */
 	border: 5px solid #ff00c1;
-	border-radius: 5px;
+	border-radius: 15px;
 	margin: 5px;
 	padding: 15px;
 }
@@ -117,20 +137,30 @@ ol div a {
 .blog-post img {
 	width: 100%;
 	height: auto;
+	border: 3px solid #ff00c1;
+	border-radius: 15px;
+	padding: 1px;
+	margin: 5px;
 }
 
 .blog-post-title a {
-    color: #07cff6;
+	color: #ff00c1;
+	font-family: "Roadrage";
+	text-shadow: 2px 2px #00b8ff;
+	text-decoration: underline;
+	text-decoration-color: #00b8ff;
 }
 
 .blog-post-title a:hover {
-    color: #00fff9;
-    text-decoration-color: #00fff9;
+	color: #ff00c1;
+	font-family: "Roadrage";
+    text-decoration-color: #00b8ff;
 }
 
 
 .blog-post p {
-    color: white;
+	color: white;
+	font-family: "GuruMeditation";
 }
 
 .blog-post p a {
@@ -139,11 +169,20 @@ ol div a {
 
 .blog-post p a:hover {
     color: #ff00c1;
-    text-decoration-color: #BE3A34;
+    text-decoration-color: #00b8ff;
 }
 
 .blog-post ul li {
 	color: white;
+	font-family: "GuruMeditation";}
+
+.blog-post ul li a {
+	color: #ff00c1;
+}
+
+.blog-post ul li a:hover {
+	color: #ff00c1;
+    text-decoration-color: #00b8ff;
 }
 
 .blog-tags-container, .blog-categories-container {
