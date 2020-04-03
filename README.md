@@ -11,9 +11,9 @@ docker exec -it 8576fdf7d0ac bash
 
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 
-docker run -it \
+sudo docker run -it \
 -e HEXO_SERVER_PORT=4000 \
--v /home/bgdg/repos/bcerney.github.io:/app \
+-v /home/bgdgbc/repos/bcerney.github.io:/app \
 -p 4000:4000 \
 bcerney.github.io:latest \
 bash
