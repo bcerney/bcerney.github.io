@@ -26,13 +26,6 @@
     url('Roadrage-owgBd.otf'); /* IE */
 }
 
-
-/* @font-face{
-    font-family: "CodeSquared";
-    src: url('still-time.ttf.ttf'),
-    url('still-time.ttf.ttf');
-} */
-
 body {
 	background-image: linear-gradient(#000000 0%, #1a297b 35%,  #000a35 100%);
 }
@@ -108,11 +101,11 @@ body {
 }
 
 .icons-sidebar {
-    margin-right: 5px;
+    margin: 5px;
     font-size: 4vmax;
 }
 
-#fa-envelope  {
+#fa-pager  {
 	color: #ff00c1;
 }
 
@@ -122,6 +115,10 @@ body {
 
 #fa-linkedin  {
 	color: #ffb700;
+}
+
+#fa-file-alt {
+	color: #711c91;
 }
 
 #main-row {
