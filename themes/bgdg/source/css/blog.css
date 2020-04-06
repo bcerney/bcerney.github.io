@@ -13,12 +13,6 @@
     url('GuruMeditationNbp-GynZ.ttf'); /* IE */
 }
 
-@font-face{
-    font-family: "CodeSquared";
-    src: url('Roadrage-owgBd.otf'),
-    url('Roadrage-owgBd.otf'); /* IE */
-}
-
 /* https://www.fontspace.com/road-rage-font-f43310 */
 @font-face{
     font-family: "Roadrage";
@@ -64,7 +58,7 @@ body {
 
 #code a {
 	color: white;
-	font-family: "CodeSquared";
+	font-family: "Roadrage";
 }
 
 #code a:hover {
@@ -78,7 +72,7 @@ body {
 
 #music a {
 	color: white;
-	font-family: "CodeSquared";
+	font-family: "Roadrage";
 }
 
 #music a:hover {
@@ -92,7 +86,7 @@ body {
 
 #guitar a {
 	color: white;
-	font-family: "CodeSquared";
+	font-family: "Roadrage";
 }
 
 #guitar a:hover {
