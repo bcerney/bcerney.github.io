@@ -35,6 +35,9 @@ body {
 }
 
 #headshot {
+	width: 100%;
+    max-width: 200px;
+    height: auto;
 	background-color: #ff00c1;
 	border: 15px solid #ff00c1 ;
 	box-shadow: 10px 10px #00b8ff;
