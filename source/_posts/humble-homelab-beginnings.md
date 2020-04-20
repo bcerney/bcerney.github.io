@@ -9,7 +9,18 @@ date: 2019-10-15
 ---
 Since moving from Big Data development to a DevOps/Cloud Engineering role at work, I've been diving into a lot of topics that are new to me - networking, virtualization, configuration management, Linux System Adminstration, DNS, etc. In an effort to strengthen my knowledge in these areas, I've been looking for ways to put them to use at home. So with that in mind, I decided the beginnings of a proper [homelab](https://www.reddit.com/r/homelab/) setup were in order. Step 1: Upgrade from our ISP-provided modem/router combo to some quality home networking equipment.
 
-![My homelab rack](./humble-homelab-beginnings/homelab-setup.jpg)
+<!-- ![My homelab rack](./humble-homelab-beginnings/homelab-setup.jpg) -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="/2019/10/15/humble-homelab-beginnings/homelab-setup.jpg" alt="My homelab rack">
+        </div>
+        <div class="col-lg-6">
+            <img src="/2019/10/15/humble-homelab-beginnings/homelab-outline-9-29-19.png" alt="Network diagram of my homelab">
+        </div>
+    </div>
+</div>
 
 In place of the combo we now have:
 - [Motorola MB7621 24x8 Cable Modem](https://motorolanetwork.com/mb7621.html)
@@ -19,4 +30,4 @@ In place of the combo we now have:
 
 So far I've been happy with the new setup. I've got a few enhancements planned, starting with multiple VLANs for network separation and a guest WiFi network.
 
-![Network diagram of my homelab](./humble-homelab-beginnings/homelab-outline-9-29-19.png)
+<!-- ![Network diagram of my homelab](./humble-homelab-beginnings/homelab-outline-9-29-19.png) -->
