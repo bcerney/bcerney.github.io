@@ -94,14 +94,9 @@
             <!-- <div class="col-md-1 col-md-offset-3"></div> -->
             <!-- Main Content -->
             <div id="main-row" class="col-md-7 offset-md-4 col-lg-8 offset-lg-3">
-                
-
-   <h2 class="blog-archive-title">Archives</h2>
-
-
-<div class="blog-post">
+                <div class="blog-post">
     <!-- Title -->
-    <h2 class="blog-post-title-archive">
+    <h2 class="blog-post-title">
         <a href="/2020/07/23/learning-python-building-gtrpg/">
             Learning Python, Building gtRPG
         </a>
@@ -111,84 +106,43 @@
         July 23, 2020
         
     </p>
+    <!-- Content -->
+    <!-- TODO: add captions -->
+<div class="container-fluid"><br>    <div class="row"><br>        <div class="col-lg-6"><br>            <img src="/2020/07/23/learning-python-building-gtrpg/gtrpg-dashboard.png" alt><br>        </div><br>        <div class="col-lg-6"><br>            <img src="/2020/07/23/learning-python-building-gtrpg/gtrpg-code.png" alt><br>        </div><br>    </div><br></div>
+
+<p>Last year I began using <a href="https://www.python.org/" target="_blank" rel="noopener">Python</a> professionally for the first time, and quickly came to love the language for it’s flexibility and readability. In an effort to become more familiar with the language, I decided to build a small personal project using Python.</p>
+<p>I was mostly using Python for automation scripting at work, so I wanted the project to also feature a web framework. I eventually settled on <a href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank" rel="noopener">Flask</a> for two reasons: 1) The “micro”-ness and extensibility of Flask seemed appealing, and 2) I found <a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" target="_blank" rel="noopener">Miguel Grinberg’s multi-part Flask tutorial</a> to be a fantastic introduction to both the Flask framework and the Python ecosystem.</p>
+<p>So with that, I began building a gamified guitar practice app called <a href="https://github.com/bcerney/gtrpg" target="_blank" rel="noopener">gtRPG</a>. gtRPG is an idea I’ve played with since my time teaching private guitar lessons - applying <a href="https://en.wikipedia.org/wiki/Gamification" target="_blank" rel="noopener">gamification</a> principles to guitar practice. gtRPG attempts to enhance guitar practice using common <a href="https://en.wikipedia.org/wiki/Role-playing_game" target="_blank" rel="noopener">RPG</a> elements. With gtRPG, users can choose Categories - musical genres or activities that the User wants to improve in - and create Tasks - practice items associated with a given Category. Users can then complete tasks in practice Sessions to earn XP towards leveling up.</p>
+<!-- TODO: add captions -->
+<div class="container-fluid"><br>    <div class="row"><br>        <div class="col-lg-1"></div><br>        <div class="col-lg-10"><br>            <img src="/2020/07/23/learning-python-building-gtrpg/gtrpg-new-session.png" alt><br>        </div><br>        <div class="col-lg-1"></div><br>    </div><br></div>
+
+<p>After about 3 months of sporadic work, I had a functional version of gtRPG. I deployed it to <a href="http://www.gtrpg.com/" target="_blank" rel="noopener">gtrpg.com</a> via <a href="https://www.heroku.com/" target="_blank" rel="noopener">Heroku</a> and began testing it out. I also <a href="https://www.reddit.com/r/learnpython/comments/eudo21/java_developer_learning_python_created_a_web_app/" target="_blank" rel="noopener">shared the app on Reddit</a> to get some user feedback and see how it performed in the wild.</p>
+<p>Some potential improvements for the future:</p>
+<ul>
+<li>UI Improvements: The look and feel of the site could use some work (navigation bar bugs, giant drop-down menus, tedious checkboxes, etc.)</li>
+<li>Learning Paths: Pre-built series of Tasks in a given Category.</li>
+<li>Model Improvements: The Category model as currently constructed proved limiting - it fails to accurately capture Tasks that span multiple Categories (e.g. A Task can fall under Country, Acoustic, and Fingerstyle, but it can only be associated with one Category). I think an easy improvement might be moving to a tag-based system.</li>
+<li>Rebranding: The concept can and should be generalized for all instruments.</li>
+</ul>
+<p>Overall, I learned a ton about Python and enjoyed working with Flask. For my next development project, I plan to tackle the <a href="https://www.djangoproject.com/" target="_blank" rel="noopener">Django</a> web framework next as that is what I’m currently using at work.</p>
+
+    <hr />
+    <!-- Tags and Categories links -->
+    
+
+<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>
+    <a href="/tags/gtRPG/">#gtRPG</a> <a href="/tags/Python/">#Python</a> <a href="/tags/guitar/">#guitar</a>
 </div>
 
-<div class="blog-post">
-    <!-- Title -->
-    <h2 class="blog-post-title-archive">
-        <a href="/2020/04/21/yowutupdate-april-2020/">
-            YoWutUpdate April 2020
-        </a>
-    </h2>
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
-        April 21, 2020
-        
-    </p>
+    
+
+<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>
+    <a href="/categories/Development/">Development</a> / <a href="/categories/Development/Music/">Music</a> / <a href="/categories/Development/Music/Education/">Education</a>
 </div>
 
-<div class="blog-post">
-    <!-- Title -->
-    <h2 class="blog-post-title-archive">
-        <a href="/2019/10/15/humble-homelab-beginnings/">
-            Humble Homelab Beginnings
-        </a>
-    </h2>
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
-        October 15, 2019
-        
-    </p>
 </div>
-
-<div class="blog-post">
-    <!-- Title -->
-    <h2 class="blog-post-title-archive">
-        <a href="/2019/09/15/bottleflies-at-big-room-bar/">
-            bottleflies at Big Room Bar, 8/31/2019
-        </a>
-    </h2>
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
-        September 15, 2019
-        
-    </p>
-</div>
-
-<div class="blog-post">
-    <!-- Title -->
-    <h2 class="blog-post-title-archive">
-        <a href="/2019/07/22/yowutupdate-july-2019/">
-            YoWutUpdate July 2019
-        </a>
-    </h2>
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
-        July 22, 2019
-        
-    </p>
-</div>
-
-<div class="blog-post">
-    <!-- Title -->
-    <h2 class="blog-post-title-archive">
-        <a href="/2019/05/05/hello-world/">
-            Hello World
-        </a>
-    </h2>
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
-        May 5, 2019
-        
-    </p>
-</div>
-
-<nav>
-    <ul class="pager">
-        
-        
-    </ul>
-</nav>
             </div>
         </div>
     </div>
