@@ -25,8 +25,8 @@ Since moving from Big Data development to a DevOps/Cloud Engineering role at wor
 In place of the combo we now have:
 - [Motorola MB7621 24x8 Cable Modem](https://motorolanetwork.com/mb7621.html)
 - [Edgerouter X](https://www.ui.com/edgemax/edgerouter-x/)
-- [UniFi UAP-AC-LR](https://www.ui.com/unifi/unifi-ap-ac-lr/)
-- 1x [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) with [Pi-hole](https://pi-hole.net/) setup for network-wide ad blocking.
+- [UniFi AP-AC-Lite](https://www.ui.com/unifi/unifi-ap-ac-lite/)
+- [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) with [Pi-hole](https://pi-hole.net/) setup for network-wide ad blocking.
 
 So far I've been happy with the new setup. I've got a few enhancements planned, starting with multiple VLANs for network separation and a guest WiFi network.
 
