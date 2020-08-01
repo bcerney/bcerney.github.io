@@ -192,3 +192,7 @@ body {
 .blog-archive-title {
     margin-bottom: 50px;
 }
+
+.blog-post-meta {
+	margin-bottom: 5px;
+}
