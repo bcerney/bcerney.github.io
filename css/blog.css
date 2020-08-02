@@ -99,7 +99,7 @@ body {
 
 .icons-sidebar {
     margin: 5px;
-    font-size: 4vmax;
+    font-size: 3vmax;
 }
 
 #fa-pager  {
@@ -110,12 +110,16 @@ body {
 	color: #00b8ff;
 }
 
-#fa-linkedin  {
+#fa-soundcloud {
 	color: #ffb700;
 }
 
+#fa-linkedin  {
+	color: #00b8ff;
+}
+
 #fa-file-alt {
-	color: #711c91;
+	color: #ff00c1;
 }
 
 #main-row {
