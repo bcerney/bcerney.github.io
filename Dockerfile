@@ -7,7 +7,9 @@ ENV HEXO_SERVER_PORT=4000
 RUN \
  apt-get update && \
  apt-get install git -y && \
- apt-get install vim -y
+ apt-get install vim -y && \
+ # build-essential needed to run make
+ apt-get install build-essential -y
 
 RUN \
  git config --global user.name "bcerney" && \
