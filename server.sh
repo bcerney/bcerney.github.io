@@ -1,5 +1,5 @@
 #!/bin/bash
 
-hexo clean && \
-hexo generate && \
-hexo server
+npx hexo clean && \
+npx hexo generate && \
+npx hexo server

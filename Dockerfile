@@ -1,9 +1,7 @@
-FROM node:slim
+FROM node:15
 
-# Set the server port as an environmental
 ENV HEXO_SERVER_PORT=4000
 
-# Install requirements
 RUN \
  apt-get update && \
  apt-get install git -y && \
@@ -13,20 +11,15 @@ RUN \
  git config --global user.name "bcerney" && \
  git config --global user.email "brianecerney@gmail.com"
 
-# Set workdir
 WORKDIR /app
 
-# Expose Server Port
 EXPOSE ${HEXO_SERVER_PORT}
 
-RUN \
- echo "***** Initializing... *****" && \
- npm install && \
- npm install -g hexo-cli && \
- npm install --save hexo && \
- npm install --save hexo-admin && \
- npm i --save hexo-asset-link && \
- npm install --save hexo-image-caption && \
- npm install hexo-deployer-git --save;
+COPY package.json .
+COPY package-lock.json .
+
+RUN npm install
+
+COPY . .
 
 CMD ["/bin/bash"]
