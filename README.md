@@ -26,3 +26,7 @@ docker build -t project:$tag .
 
 ssh-keygen -t rsa -f /root/.ssh/id_rsa -q -P ""
 cat /root/.ssh/id_rsa.pub
+
+# Specify private key for remote git commands
+
+GIT_SSH_COMMAND='ssh -i /home/bgdgbc/.ssh/id_rsa'
