@@ -9,7 +9,7 @@ date: 2020-08-02
 
 <div class="container-fluid">
     <div class="row">
-        <div class="embed-responsive embed-responsive-1by1" style="max-height: 300px;">
+        <div class="embed-responsive embed-responsive-1by1 col-lg-12" style="max-height: 300px;">
             <!-- https://getbootstrap.com/docs/4.0/utilities/embed/ -->
             <iframe class="embed-responsive-item" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1103599663&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </div>
