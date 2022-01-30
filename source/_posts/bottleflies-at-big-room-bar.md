@@ -1,8 +1,8 @@
 title: bottleflies at Big Room Bar, 8/31/2019
 tags:
+- music
+- guitar
 - bottleflies
-categories:
-- Music
 author: ''
 date: 2019-09-15
 ---

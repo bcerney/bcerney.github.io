@@ -1,12 +1,12 @@
 title: YoWutUpdate July 2019
-tags: 
-- bottleflies
-- Guitars Not Guns
-- mandolin
-categories: 
+tags:
+- music
+- education
 - YoWutUpdate
-- Music
-- Education
+- guitar
+- Guitars Not Guns
+- bottleflies
+- mandolin
 author: ''
 date: 2019-07-22
 ---

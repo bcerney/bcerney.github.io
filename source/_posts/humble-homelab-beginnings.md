@@ -1,9 +1,12 @@
 title: Humble Homelab Beginnings
 tags:
-- homelab
+- code
+- cloud
 - devops
-categories:
-- Development
+- homelab
+- nextcloud
+- raspberrypi
+- unifi
 author: ''
 date: 2019-10-15
 ---

@@ -1,8 +1,7 @@
 title: Mandolin Studies
 tags:
+- music
 - mandolin
-categories:
-- Music
 author: ''
 date: 2020-08-02
 ---
