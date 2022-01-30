@@ -2,9 +2,9 @@
     <img id="headshot" class="center-block img-responsive" src="<%- url_for('/images/bc-headshot.png') %>" alt="Headshot of Brian Cerney">
 
     <ol class="list-unstyled">
-        <div id="code"><li><i id="fa-code" class="fas fa-code"></i> <a href="https://www.immuta.com/" target="_blank">Senior Software Engineer, Immuta</a></li></div>
-        <div id="music"><li><i id="fa-music" class="fas fa-music"></i> <a href="http://bottleflies.com" target="_blank">Guitar/Vox, bottleflies</a></li></div>
-        <div id="guitar"><li><i id="fa-guitar" class="fa fa-guitar"></i> <a href="https://guitarsnotgunsohio.org/" target="_blank">Instructor, Guitars Not Guns Ohio</a></li></div>
+        <div id="code"><li><i id="fa-code" class="fas fa-code"></i><a href="<%- url_for('/tags/code') %>">Code</a></li></div>
+        <div id="music"><li><i id="fa-music" class="fas fa-music"></i><a href="<%- url_for('/tags/music') %>">Music</a></li></div>
+        <div id="education"><li><i id="fa-chalkboard-teacher" class="fas fa-chalkboard-teacher"></i><a href="<%- url_for('/tags/education') %>">Education</a></li></div>
     </ol>
 </div>
 
@@ -12,7 +12,7 @@
     <p>
         <a href="mailto:brianecerney@gmail.com" title="Contact"><i id="fa-pager" class="fas fa-pager icons-sidebar"></i></a>
         <a href="https://github.com/bcerney" title="GitHub"><i id="fa-github" class="fab fa-github icons-sidebar"></i></a>
-        <a href="https://soundcloud.com/user-134746137" title="SoundCloud"><i id="fa-soundcloud" class="fab fa-soundcloud icons-sidebar"></i></a>
+        <a href="https://soundcloud.com/bgdgbc" title="SoundCloud"><i id="fa-soundcloud" class="fab fa-soundcloud icons-sidebar"></i></a>
         <a href="https://www.linkedin.com/in/brian-cerney" title="LinkedIn"><i id="fa-linkedin" class="fab fa-linkedin icons-sidebar"></i></a>
         <!-- https://github.com/hexojs/hexo/issues/1724 -->
         <a href="<%- url_for('/resume.pdf') %>" title="Resume"><i id="fa-file-alt" class="fas fa-file-alt icons-sidebar"></i></a>
