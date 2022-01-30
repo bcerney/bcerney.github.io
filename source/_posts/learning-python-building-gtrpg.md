@@ -1,12 +1,10 @@
 title: Learning Python, Building gtRPG
 tags:
-- gtRPG
-- Python
+- code
+- music
+- education
 - guitar
-categories: 
-- Development
-- Music
-- Education
+- Python
 date: 2020-07-23
 ---
 
