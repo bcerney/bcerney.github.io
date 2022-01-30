@@ -48,7 +48,6 @@ body {
 #sidebar-row {
 	margin-top: 10px;
 	margin-right: 10px;
-	/* font-size: 2vh; */
 }
 
 .sidebar-module li {
@@ -57,6 +56,7 @@ body {
 
 #fa-code {
 	color: #ff00c1;
+	margin-right: 10px;
 }
 
 #code a {
@@ -71,6 +71,7 @@ body {
 
 #fa-music {
 	color: #00b8ff;
+	margin-right: 10px;
 }
 
 #music a {
@@ -83,16 +84,17 @@ body {
 	text-decoration-color: #00b8ff;
 }
 
-#fa-guitar {
+#fa-chalkboard-teacher {
 	color: #ffb700;
+	margin-right: 10px;
 }
 
-#guitar a {
+#education a {
 	color: white;
 	font-family: "Roadrage";
 }
 
-#guitar a:hover {
+#education a:hover {
 	color: white;
 	text-decoration-color: #ffb700;
 }
@@ -135,7 +137,6 @@ body {
 	border: 3px solid #ff00c1;
 	border-radius: 15px;
 	padding: 1px;
-	/* margin: 5px; */
 }
 
 .blog-post-title a {
@@ -188,13 +189,10 @@ body {
     margin-right: 20px;
 }
 
-.blog-post-title-archive {
-    margin-bottom: 5px;
-    font-size: 25px;
-}
-
 .blog-archive-title {
-    margin-bottom: 50px;
+	color: white;
+	font-family: "HyperViper";
+	font-size: 50px;
 }
 
 .blog-post-meta {
