@@ -1,12 +1,11 @@
 title: Homelab 1.1
 tags:
+- code
 - homelab
-- rpi
 - docker
-- github
+- nextcloud
+- raspberrypi
 - unifi
-categories:
-- Development
 author: ''
 date: 2020-08-01
 ---

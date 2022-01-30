@@ -1,12 +1,12 @@
 title: YoWutUpdate April 2020
 tags:
+- music
+- education
+- YoWutUpdate
+- guitar
 - bottleflies
 - Guitars Not Guns
 - mandolin
-categories: 
-- YoWutUpdate
-- Music
-- Education
 date: 2020-04-21
 ---
 In February [Guitars Not Guns Ohio wrapped up another class](https://www.10tv.com/article/guitars-not-guns-program-aims-help-risk-youth-find-alternative-violence-2020-feb?fbclid=IwAR3PSIKdw-Y81_fROXSYS26aqMyPL0flXmyrpPOmRlCUJJgSeMYp5lo21aQ), this one at [Cassady Elementary School](https://www.ccsoh.us/CassadyES) with [After-School All-Stars](https://www.facebook.com/afterschoolallstars/). The kids did a great job and were very excited to take their guitars home. For now the organization is playing the COVID-19 waiting game like everyone else, but we're looking forward to a return to normalcy and classes starting back up.

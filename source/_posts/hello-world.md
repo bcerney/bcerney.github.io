@@ -1,6 +1,7 @@
 title: Hello World
-tags: []
-categories: []
+tags:
+- code
+- hexo
 author: ''
 date: 05-05-2019 15:14:00
 ---
