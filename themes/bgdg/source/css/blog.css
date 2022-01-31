@@ -24,14 +24,34 @@ body {
 	background-image: linear-gradient(#000000 0%, #1a297b 35%,  #000a35 100%);
 }
 
-#header h1 {
+#header-title {
 	color: #ff00c1;
-	text-shadow: 5px 5px #00b8ff;
-	text-decoration: underline;
-	text-decoration-color: #ff00c1;
 	font-family: HyperViper;
 	font-size: 12vmin;
 	padding: 10px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 5px 5px #00b8ff;
+}
+
+#header-title a {
+	color: #ff00c1;
+	font-family: HyperViper;
+	font-size: 12vmin;
+	padding: 10px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 5px 5px #00b8ff;
+}
+
+#header-title a:hover {
+	color: #ff00c1;
+	font-family: "HyperViper";
+	font-size: 12vmin;
+	padding: 10px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 5px 5px #00b8ff;
 }
 
 #headshot {
@@ -142,15 +162,17 @@ body {
 .blog-post-title a {
 	color: #ff00c1;
 	font-family: "Roadrage";
-	text-shadow: 2px 2px #00b8ff;
 	text-decoration: underline;
-	text-decoration-color: #00b8ff;
+	text-decoration-color: #ff00c1;
+	text-shadow: 2px 2px #00b8ff;
 }
 
 .blog-post-title a:hover {
 	color: #ff00c1;
 	font-family: "Roadrage";
-    text-decoration-color: #00b8ff;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 2px 2px #00b8ff;
 }
 
 
@@ -197,4 +219,28 @@ body {
 
 .blog-post-meta {
 	margin-bottom: 5px;
+}
+
+.pager {
+	list-style-type: none;
+}
+
+.pager > li a {
+	color: #ff00c1;
+	font-family: "Roadrage";
+	font-size: 3vh;
+	margin: 20px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 2px 2px #00b8ff;
+}
+
+.pager > li a:hover {
+	color: #ff00c1;
+	font-family: "Roadrage";
+	font-size: 3vh;
+	margin: 20px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 2px 2px #00b8ff;
 }
