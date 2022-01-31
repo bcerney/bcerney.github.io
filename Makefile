@@ -1,6 +1,8 @@
-.PHONY: run
+SUDO=sudo
+
+.PHONY: run server ssh-keygen deploy
 run: ## Run hexo server script
-	./scripts/run.sh
+	${SUDO} ./scripts/run.sh
 
 .PHONY: server
 server: ## Run hexo server script
