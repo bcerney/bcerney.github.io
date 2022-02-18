@@ -30,3 +30,6 @@ cat /root/.ssh/id_rsa.pub
 # Specify private key for remote git commands
 
 GIT_SSH_COMMAND='ssh -i /home/bgdgbc/.ssh/id_rsa'
+
+# npm updates via ncu
+ncu -u
