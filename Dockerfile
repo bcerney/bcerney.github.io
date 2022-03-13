@@ -1,4 +1,4 @@
-FROM node:15
+FROM node:17
 
 ENV HEXO_SERVER_PORT=4000
 
