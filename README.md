@@ -32,4 +32,6 @@ cat /root/.ssh/id_rsa.pub
 GIT_SSH_COMMAND='ssh -i /home/bgdgbc/.ssh/id_rsa'
 
 # npm updates via ncu
+ncu
+
 ncu -u
