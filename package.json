@@ -6,7 +6,7 @@
     "version": ""
   },
   "dependencies": {
-    "hexo": "^6.0.0",
+    "hexo": "^6.1.0",
     "hexo-admin": "^2.3.0",
     "hexo-asset-link": "^2.1.1",
     "hexo-cli": "^4.3.0",
