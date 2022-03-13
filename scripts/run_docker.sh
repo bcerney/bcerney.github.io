@@ -6,5 +6,4 @@ docker run -it \
   -e HEXO_SERVER_PORT=4000 \
   -p 4000:4000 \
   bcerney.github.io:latest \
-  make server
-
+  bash
