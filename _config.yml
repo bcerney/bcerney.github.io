@@ -85,8 +85,3 @@ deploy:
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
   name: bcerney
   email: brianecerney@gmail.com
-
-# hexo-image-caption: https://github.com/wayou/hexo-image-caption
-image_caption:
-  enable: false
-  class_name: # caption class name, default is 'image-caption'
