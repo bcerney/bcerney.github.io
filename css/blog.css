@@ -1,0 +1,247 @@
+/* https://hyperpix.net/fonts/vaporwave-fonts/ */
+/* https://www.dafont.com/hyper-vyper.font */
+@font-face{
+    font-family: "HyperViper";
+    src: url('hyperviperhalfital.ttf'),
+    url('hyperviperhalfital.ttf'); /* IE */
+}
+
+/* https://www.fontspace.com/guru-meditation-nbp-font-f15920 */
+@font-face{
+    font-family: "GuruMeditation";
+    src: url('GuruMeditationNbp-GynZ.ttf'),
+    url('GuruMeditationNbp-GynZ.ttf'); /* IE */
+}
+
+/* https://www.fontspace.com/road-rage-font-f43310 */
+@font-face{
+    font-family: "Roadrage";
+    src: url('Roadrage-owgBd.otf'),
+    url('Roadrage-owgBd.otf'); /* IE */
+}
+
+body {
+	background-image: linear-gradient(#000000 0%, #1a297b 35%,  #000a35 100%);
+}
+
+#header-title {
+	color: #ff00c1;
+	font-family: HyperViper;
+	font-size: 12vmin;
+	padding: 10px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 5px 5px #00b8ff;
+}
+
+#header-title a {
+	color: #ff00c1;
+	font-family: HyperViper;
+	font-size: 12vmin;
+	padding: 10px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 5px 5px #00b8ff;
+}
+
+#header-title a:hover {
+	color: #ff00c1;
+	font-family: "HyperViper";
+	font-size: 12vmin;
+	padding: 10px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 5px 5px #00b8ff;
+}
+
+#headshot {
+	width: 100%;
+    max-width: 200px;
+    height: auto;
+	background-color: #ff00c1;
+	border: 15px solid #ff00c1 ;
+	box-shadow: 10px 10px #00b8ff;
+	border-radius: 20%;
+	margin-bottom: 20px;
+}
+
+#sidebar-row {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.sidebar-module li {
+	font-size: 3vh;
+}
+
+#fa-code {
+	color: #ff00c1;
+	margin-right: 10px;
+}
+
+#code a {
+	color: white;
+	font-family: "Roadrage";
+}
+
+#code a:hover {
+	color: white;
+	text-decoration-color: #ff00c1;
+}
+
+#fa-music {
+	color: #00b8ff;
+	margin-right: 10px;
+}
+
+#music a {
+	color: white;
+	font-family: "Roadrage";
+}
+
+#music a:hover {
+	color: white;
+	text-decoration-color: #00b8ff;
+}
+
+#fa-chalkboard-teacher {
+	color: #ffb700;
+	margin-right: 10px;
+}
+
+#education a {
+	color: white;
+	font-family: "Roadrage";
+}
+
+#education a:hover {
+	color: white;
+	text-decoration-color: #ffb700;
+}
+
+.icons-sidebar {
+    margin: 5px;
+    font-size: 3vmax;
+}
+
+#fa-pager  {
+	color: #ff00c1;
+}
+
+#fa-github  {
+	color: #00b8ff;
+}
+
+#fa-soundcloud {
+	color: #ffb700;
+}
+
+#fa-linkedin  {
+	color: #00b8ff;
+}
+
+#fa-file-alt {
+	color: #ff00c1;
+}
+
+#main-row {
+	border: 5px solid #ff00c1;
+	border-radius: 15px;
+	margin: 5px;
+	padding: 15px;
+}
+
+.blog-post img {
+	width: 100%;
+	height: auto;
+	border: 3px solid #ff00c1;
+	border-radius: 15px;
+	padding: 1px;
+	margin: 2px;
+}
+
+.blog-post-title a {
+	color: #ff00c1;
+	font-family: "Roadrage";
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 2px 2px #00b8ff;
+}
+
+.blog-post-title a:hover {
+	color: #ff00c1;
+	font-family: "Roadrage";
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 2px 2px #00b8ff;
+}
+
+
+.blog-post p {
+	color: white;
+	font-family: "GuruMeditation";
+}
+
+.blog-post p a {
+    color: #ff00c1;
+}
+
+.blog-post p a:hover {
+    color: #ff00c1;
+    text-decoration-color: #00b8ff;
+}
+
+.blog-post ul li {
+	color: white;
+	font-family: "GuruMeditation";}
+
+.blog-post ul li a {
+	color: #ff00c1;
+}
+
+.blog-post ul li a:hover {
+	color: #ff00c1;
+    text-decoration-color: #00b8ff;
+}
+
+.blog-tags-container, .blog-categories-container {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.blog-tags-container span.glyphicon, .blog-categories-container span.glyphicon {
+    margin-right: 20px;
+}
+
+.blog-archive-title {
+	color: white;
+	font-family: "HyperViper";
+	font-size: 50px;
+}
+
+.blog-post-meta {
+	margin-bottom: 5px;
+}
+
+.pager {
+	list-style-type: none;
+}
+
+.pager > li a {
+	color: #ff00c1;
+	font-family: "Roadrage";
+	font-size: 3vh;
+	margin: 20px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 2px 2px #00b8ff;
+}
+
+.pager > li a:hover {
+	color: #ff00c1;
+	font-family: "Roadrage";
+	font-size: 3vh;
+	margin: 20px;
+	text-decoration: underline;
+	text-decoration-color: #ff00c1;
+	text-shadow: 2px 2px #00b8ff;
+}
